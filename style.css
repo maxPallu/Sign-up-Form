@@ -1,11 +1,62 @@
 body {
     background-image: url(Img/halie-west-25xggax4bSA-unsplash.jpg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .main-content {
+    background-color: #f2f2f2;
+    width: 100%;
+    top: 0;
+    bottom: 1;  
+    position: relative;
+    height: 100vh;
+    align-items: center;
+    font-size: 1.2rem;
+}
+
+.form {
     background-color: white;
+    height: 35vh;
 }
 
 .validate {
-    background-color: grey;
+    position: relative;
+    height: 35vh;
+    background-color: #f2f2f2;
+    width: 100%;
+    top: 15vh;
+}
+
+.logo-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    width: 45%;
+    background-color: black;
+    position: relative;
+    bottom: 25vh;
+    opacity: 0.8;
+}
+
+img {
+    width: 100px;
+    opacity: 1;
+}
+
+.btn_validate {
+    background-color: #596D48;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: #596D48;
+    font-weight: bold;
+}
+
+.header-text {
+    text-align: justify;
 }
